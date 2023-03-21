@@ -20,7 +20,7 @@ lint = true
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
-resolve_s3 = true
+#resolve_s3 = false
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1v7rj7b5iuglg"
 s3_prefix = "sam-app"
 region = "eu-north-1"
@@ -28,7 +28,7 @@ image_repositories = []
 
 [default.package]
 [default.package.parameters]
-resolve_s3 = true
+#resolve_s3 = true
 
 [default.sync]
 [default.sync.parameters]
